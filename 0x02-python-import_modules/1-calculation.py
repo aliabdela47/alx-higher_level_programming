@@ -1,9 +1,42 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
 from calculator_1 import add, sub, mul, div
-a = 10
-b = 5
-print('{:d} + {:d} = {:d}'.format(a, b, (add(a, b))))
-print('{:d} - {:d} = {:d}'.format(a, b, (sub(a, b))))
-print('{:d} * {:d} = {:d}'.format(a, b, (mul(a, b))))
-print('{:d} / {:d} = {:d}'.format(a, b, (div(a, b))))
+
+
+def main():
+    a = 10
+    b = 5
+    print("{} + {} = {}".format(a, b, add(a, b)))
+
+
+if __name__ == "__main__":
+    main()
+
+
+def submain():
+    a = 10
+    b = 5
+    print("{} - {} = {}".format(a, b, sub(a, b)))
+
+
+if __name__ == "__main__":
+    submain()
+
+
+def mulmain():
+    a = 10
+    b = 5
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+
+
+if __name__ == "__main__":
+    mulmain()
+
+
+def dmain():
+    a = 10
+    b = 5
+    print("{} / {} = {}".format(a, b, div(a, b)))
+
+
+if __name__ == "__main__":
+    dmain()
