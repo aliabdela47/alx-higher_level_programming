@@ -1,1 +1,1 @@
-This is 0x09-python-everything_is_object Project
+This is the 0x09-python-everything_is_object project
